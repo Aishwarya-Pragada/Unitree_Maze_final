@@ -1,0 +1,11 @@
+exp,policy,severity,maze_seed,rows,cols,replan,n_obstacles,success,reason,fell,time_s,final_dist,first_plan_len,opt_len,actual_len,spl,mean_dev,max_dev,wall_events,wall_steps,n_replans,obstacles_seen,dr_friction,dr_trunk_mass,dr_kp
+replan,baseline,1.0,0,5,7,False,1,False,stuck,False,24.0,4.904,10.0,14.0,4.65,0.0,0.09,0.311,127,478,0,1,1.137,0.989,0.816
+replan,baseline,1.0,1,7,7,False,1,False,stuck,False,38.5,3.779,12.0,20.0,9.78,0.0,0.069,0.208,125,464,0,1,1.012,1.465,0.858
+replan,baseline,1.0,3,5,7,False,1,False,stuck,False,24.0,4.393,10.0,10.0,5.62,0.0,0.072,0.27,155,307,0,1,0.586,0.966,1.121
+replan,baseline,1.0,2,7,9,False,1,False,stuck,False,52.5,4.681,26.0,30.0,18.37,0.0,0.113,0.336,173,426,0,1,0.762,1.009,1.126
+replan,baseline,1.0,5,7,9,False,1,False,stuck,False,26.0,6.633,14.0,22.0,6.33,0.0,0.044,0.132,117,503,0,1,1.305,1.366,1.006
+replan,baseline,1.0,0,5,7,True,1,True,success,False,59.44,0.375,10.0,14.0,19.71,0.71,0.066,0.227,11,51,1,1,1.137,0.989,0.816
+replan,baseline,1.0,1,7,7,True,1,True,success,False,61.3,0.248,12.0,20.0,22.05,0.907,0.051,0.249,10,21,1,1,1.012,1.465,0.858
+replan,baseline,1.0,3,5,7,True,1,True,success,False,35.98,0.119,10.0,10.0,14.66,0.682,0.149,0.436,15,22,1,1,0.586,0.966,1.121
+replan,baseline,1.0,2,7,9,True,1,True,success,False,72.9,0.287,26.0,30.0,31.48,0.953,0.136,0.348,39,81,1,1,0.762,1.009,1.126
+replan,baseline,1.0,5,7,9,True,1,True,success,False,62.98,0.215,14.0,22.0,24.57,0.896,0.067,0.229,4,31,1,1,1.305,1.366,1.006

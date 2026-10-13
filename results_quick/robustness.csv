@@ -1,0 +1,11 @@
+exp,policy,severity,maze_seed,rows,cols,replan,n_obstacles,success,reason,fell,time_s,final_dist,first_plan_len,opt_len,actual_len,spl,mean_dev,max_dev,wall_events,wall_steps,n_replans,obstacles_seen,dr_friction,dr_trunk_mass,dr_kp
+robustness,baseline,0.0,0,5,7,True,0,True,success,False,23.1,0.292,10.0,10.0,9.61,1.0,0.046,0.139,0,0,0,0,1.0,1.0,1.0
+robustness,baseline,0.0,1,7,7,True,0,True,success,False,28.08,0.282,12.0,12.0,11.47,1.0,0.049,0.143,0,0,0,0,1.0,1.0,1.0
+robustness,baseline,0.0,3,5,7,True,0,True,success,False,23.14,0.286,10.0,10.0,9.69,1.0,0.049,0.107,0,0,0,0,1.0,1.0,1.0
+robustness,baseline,0.0,2,7,9,True,0,True,success,False,59.88,0.288,26.0,26.0,25.2,1.0,0.046,0.121,0,0,0,0,1.0,1.0,1.0
+robustness,baseline,2.0,0,5,7,True,0,False,fell,True,6.42,6.288,10.0,10.0,1.99,0.0,0.065,0.327,0,0,0,0,1.418,1.511,1.151
+robustness,baseline,2.0,1,7,7,True,0,False,fell,True,5.44,7.831,12.0,12.0,1.73,0.0,0.05,0.379,1,2,0,0,1.491,1.358,0.822
+robustness,baseline,0.0,4,7,7,True,0,True,success,False,56.18,0.286,24.0,24.0,22.83,1.0,0.046,0.144,0,0,0,0,1.0,1.0,1.0
+robustness,baseline,2.0,3,5,7,True,0,True,success,False,28.94,0.347,10.0,10.0,11.65,0.858,0.252,0.358,62,172,0,0,0.308,0.932,1.241
+robustness,baseline,2.0,2,7,9,True,0,False,fell,True,51.78,6.613,26.0,26.0,21.01,0.0,0.209,0.486,112,263,0,0,1.082,1.912,1.2
+robustness,baseline,2.0,4,7,7,True,0,False,fell,True,14.52,6.33,24.0,24.0,5.16,0.0,0.196,0.352,21,60,0,0,0.645,1.902,0.993

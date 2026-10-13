@@ -1,0 +1,12 @@
+{
+  "xml": "/home/magar/robotics_project/Unitree_Maze_final/scene.xml",
+  "run_name": "dr_ft",
+  "timesteps": 2000000,
+  "n_envs": 8,
+  "seed": 0,
+  "randomize": true,
+  "dr_scale": 1.0,
+  "dr_ramp_steps": 0,
+  "init_from": "runs/trot_v1",
+  "save_every": 500000
+}
